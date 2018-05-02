@@ -21,14 +21,14 @@ class ScenarioTest(unittest.TestCase):#api
         self.configPath =  gl.configPath
         self.reportPath = gl.reportPath
         self.yamlPath = os.path.join(self.configPath,'config_scenario.yaml')
-        self.scenarioData = os.path.join(gl.dataScenarioPath,'scenario.xlsx').decode('utf-8')
+        self.scenarioRunTable = os.path.join(gl.configPath,'scenario_run_config.xlsx').decode('utf-8')
 
 
     '''
     #储值撤销场景:储值预览->储值提交->储值撤销
     '''
     def testChargeAndCancel(self):#储值撤销场景:储值预览->储值提交->储值撤销
-        all_row_list = Excel(self.scenarioData).getExcelDataByName()
+        all_row_list = Excel(self.scenarioRunTable).getExcelDataByName()
         for row in all_row_list:
             #print row
             if str(row['Flag']).strip() =='Y' and str(row['PrimaryKey']).strip()=='chargeAndCancel': #执行标志
@@ -52,7 +52,7 @@ class ScenarioTest(unittest.TestCase):#api
     #自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销
     '''
     def testChargeAndDeal(self):
-        all_row_list = Excel(self.scenarioData).getExcelDataByName()
+        all_row_list = Excel(self.scenarioRunTable).getExcelDataByName()
         for row in all_row_list:
             # print row
             if str(row['Flag']).strip() == 'Y' and str(row['PrimaryKey']).strip() == 'chargeAndDeal':  # 执行标志
