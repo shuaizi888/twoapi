@@ -1,1 +1,4 @@
-tokenNo1: {tokenNo1: !!python/unicode '20180428135331'}
+name: ChargeAndCancel
+ChargePreview: {award_money2: 10, biz_id: '37', cashier_id: '1196770051', charge_type: 1, cno: '1262797',
+  is_diy: true, money: '100', recommenderecode2: 9002, remark: beizhu, reward_money: '100',
+  shop_id: 4101315464}
