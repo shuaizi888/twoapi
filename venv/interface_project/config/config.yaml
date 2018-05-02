@@ -1,4 +1,4 @@
-
+name: config
 
 EMAIL:
     Smtp_Server:
@@ -8,7 +8,6 @@ EMAIL:
     Content_Type:
     Text_Description:
 
-URL:
-    Base_Url: https://api.acewill.net
+
 
 

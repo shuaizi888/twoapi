@@ -12,7 +12,6 @@ if __name__=="__main__":
     suite.addTests(tests)
 
     filePath = os.path.join(gl.reportPath, 'Report.html')  # 确定生成报告的路径
-    # filePath ='F:\\Report.html'
 
     print filePath
 

@@ -1,9 +1,0 @@
-
-#获取用户帐户信息
-GetUserAccount:
-    Cno:
-    Shop_id:
-
-#发送验证码
-SendCode:
-    Cno:
