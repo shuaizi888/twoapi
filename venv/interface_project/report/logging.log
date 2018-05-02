@@ -2604,3 +2604,636 @@ Content-Disposition: form-data; name="v"
 [2018-05-02 17:03:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
 [2018-05-02 17:03:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
 [2018-05-02 17:03:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 生成日期时间串20180502173133
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":4101315464,"cashier_id":"1196770051","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":20180502173133,"recommenderecode2":9002}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173133,"is_diy":false}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:33] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173133,"cashier_id":"1196770051"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:31:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:31:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:31:35] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:31:35] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2018-05-02 17:31:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 生成日期时间串20180502173137
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":4101315464,"cashier_id":"1196770051","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":20180502173137,"recommenderecode2":9002}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173137,"is_diy":false}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 生成日期时间串20180502173137
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":1112645845,"cashier_id":"1218054703","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":1,"count_num":2,"biz_id":20180502173137,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173137,"send_notification":true,"verify_code":"000000"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:31:37] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173137,"send_notification2":false,"cashier_id":"1218054703"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:31:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:31:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:31:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:31:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:31:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2018-05-02 17:31:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2018-05-02 17:31:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2018-05-02 17:31:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2018-05-02 17:31:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2018-05-02 17:31:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:31:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 生成日期时间串20180502173419
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":4101315464,"cashier_id":"1196770051","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":20180502173419,"recommenderecode2":9002}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173419,"is_diy":false}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:19] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173419,"cashier_id":"1196770051"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:19] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:34:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:20] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:34:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:34:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:34:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2018-05-02 17:34:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 生成日期时间串20180502173423
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":4101315464,"cashier_id":"1196770051","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":20180502173423,"recommenderecode2":9002}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173423,"is_diy":false}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 生成日期时间串20180502173423
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":1112645845,"cashier_id":"1218054703","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":1,"count_num":2,"biz_id":20180502173423,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173423,"send_notification":true,"verify_code":"000000"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:34:23] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173423,"send_notification2":false,"cashier_id":"1218054703"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:34:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:34:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:34:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:34:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:34:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2018-05-02 17:34:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2018-05-02 17:34:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2018-05-02 17:34:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2018-05-02 17:34:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2018-05-02 17:34:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:34:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 生成日期时间串20180502173605
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":4101315464,"cashier_id":"1196770051","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":20180502173605,"recommenderecode2":9002}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173605,"is_diy":false}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:05] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173605,"cashier_id":"1196770051"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:05] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:36:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:06] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:36:06] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:36:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:36:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2018-05-02 17:36:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 生成日期时间串20180502173609
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":4101315464,"cashier_id":"1196770051","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":20180502173609,"recommenderecode2":9002}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173609,"is_diy":false}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 生成日期时间串20180502173609
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","shop_id":1112645845,"cashier_id":"1218054703","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":1,"count_num":2,"biz_id":20180502173609,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173609,"send_notification":true,"verify_code":"000000"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-02 17:36:09] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"biz_id":20180502173609,"send_notification2":false,"cashier_id":"1218054703"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-02 17:36:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:36:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:10] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2018-05-02 17:36:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:36:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2018-05-02 17:36:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2018-05-02 17:36:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2018-05-02 17:36:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:13] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2018-05-02 17:36:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2018-05-02 17:36:14] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2018-05-02 17:36:14] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2018-05-02 17:36:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
