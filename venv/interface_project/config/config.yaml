@@ -1,0 +1,14 @@
+
+
+EMAIL:
+    Smtp_Server:
+    Smtp_Sender:
+    Password:
+    Msg_Title:
+    Content_Type:
+    Text_Description:
+
+URL:
+    Base_Url: https://api.acewill.net
+
+
