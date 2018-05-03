@@ -52,8 +52,8 @@ class ScenarioTest(unittest.TestCase):#api
     #自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销
     '''
     def testChargeAndDeal(self):
-        #yamlConfigPath = os.path.join(gl.dataScenarioPath,'ChargeAndDeal.yaml')
-        #scanorio_data = scripts.getYamlfield(yamlConfigPath)
+        yamlConfigPath = os.path.join(gl.dataScenarioPath,'ChargeAndDeal.yaml')
+        scanorio_data = scripts.getYamlfield(yamlConfigPath)
 
 
         all_row_list = Excel(self.scenarioRunTable).getExcelDataByName()
@@ -63,7 +63,9 @@ class ScenarioTest(unittest.TestCase):#api
                 #场景顺序执行
                 preview = charge_preview.ChargeClass()  # 储值预览
                 biz_id_01 = scripts.rndTimeStr()
-                preview.payload =scripts.replacePayload(preview.payload,'biz_id',biz_id_01)
+                #----修改数据----
+                scanorio_data['ChargePreview']['biz_id'] = biz_id_01
+                preview.payload = scripts.loadTestData(preview.payload,scanorio_data['ChargePreview']) #生成新数据
                 '''--------------------------split line----------------------'''
                 commit = charge_commit.ChargeClass()  # 储值提交
                 commit.payload = scripts.replacePayload(commit.payload,'biz_id',biz_id_01)
@@ -85,7 +87,8 @@ class ScenarioTest(unittest.TestCase):#api
                 self.assertEquals(dealPreview.dealPreview['errcode'], 0,dealPreview.dealPreview['errmsg']) #消费预览断言
                 self.assertEquals(dealcommit.dealCommit['errcode'], 0,dealcommit.dealCommit['errmsg']) #消费提交断言
                 self.assertEquals(dealcancel.dealCancel['errcode'], 0,dealcancel.dealCancel['errmsg']) #消费取消断言
-
+            else:
+                print "执行配置表中没有可以执行的对象。"
 
 
 

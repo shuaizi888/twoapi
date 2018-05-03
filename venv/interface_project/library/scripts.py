@@ -1,7 +1,7 @@
 #_*_coding:utf-8_*_
 from log import LogDebug
 import time
-import yaml
+import yaml,json
 '''
 替换，post数据中的biz_id
 '''
@@ -51,13 +51,13 @@ def getYamlfield(yamlpath):
 '''
 更新接口测试数据
 '''
-def loadTestData(payload):
+def loadTestData(payload,paydic):
     left_location = payload.find('{')
     right_location = payload.rfind('}')
 
     leftstr = payload[:left_location]
     rightstr = payload[right_location+1:]
 
-    newPayload = leftstr + json.dumps(payload2) + rightstr
+    newPayload = leftstr + json.dumps(paydic) + rightstr
     return newPayload
 
