@@ -1,10 +1,11 @@
 #_*_coding:utf-8_*_
 import unittest
 from interface_project.scenario.scenario_scripts import ScenarioTest
-import os,time
+import os,time,json
 from interface_project.globalVar import gl
 from interface_project.library import HTMLTESTRunnerCN
 from interface_project.library.emailstmp import EmailClass
+
 
 if __name__=="__main__":
     suite = unittest.TestSuite()
@@ -25,8 +26,10 @@ if __name__=="__main__":
     )
     # 运行测试用例
     runner.run(suite)
+    fp.close()
 
-    time.sleep(10)
+    #print json.dumps(runner.STATUS).decode('unicode-escape')
+
     #发送测试报告Email
     email_class = EmailClass()
     email_class.sendEmail(email_class.setMailContent)

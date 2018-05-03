@@ -83,37 +83,9 @@ class ScenarioTest(unittest.TestCase):#api
                 self.assertEquals(dealcancel.dealCancel['errcode'], 0,dealcancel.dealCancel['errmsg']) #消费取消断言
 
 
-'''
-class tmpClass(object):
-    def __init__(self):
-        self.configPath =  gl.configPath
-        self.yamlPath = os.path.join(self.configPath,'config_scenario.yaml')
 
 
-    def rndTimeStr(self):
-        curTimeStr = str(time.strftime('%Y%m%d%H%M%S', time.localtime()).encode('utf-8'))
-        return curTimeStr.decode('utf-8')
-
-    def writeYmal(self,data):
-        fp = open(self.yamlPath,'a')
-        yaml.dump(data,fp)
-
-    def getYamlfield(self,yamlpath):
-        f = open(yamlpath,'r')
-        cont = f.read()
-        ret = yaml.load(cont)
-        return ret
-'''
 if __name__=="__main__":
-    #unittest.main()
-    #tmpClass().rndTimeStr()
-    '''
-    tcodePath = os.path.join(gl.dataPath,'t-code')
-    yamlPath = os.path.join(os.path.abspath(tcodePath), 'charge_interface.yaml')
-    print yamlPath
-    print tmpClass().getYamlfield(yamlPath)['payload']
-    '''
-
     suite = unittest.TestSuite()
     tests = [ScenarioTest('testChargeAndCancel'),ScenarioTest('testChargeAndDeal')]
     suite.addTests(tests)
@@ -132,3 +104,4 @@ if __name__=="__main__":
         )
     #运行测试用例
     runner.run(suite)
+    fp.close()

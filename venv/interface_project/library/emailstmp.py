@@ -46,7 +46,7 @@ class EmailClass(object):
         # 附件-文件
         file = MIMEBase(maintype, subtype)
         file.set_payload(reportHtmlText)
-        file.add_header('Content-Disposition', 'attachment', filename='report%s.html'%self.curDateTime)
+        file.add_header('Content-Disposition', 'attachment', filename='Report%s.html'%self.curDateTime)
         encoders.encode_base64(file)
         msg.attach(file)
         fp.close()
