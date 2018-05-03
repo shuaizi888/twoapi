@@ -32,7 +32,7 @@ class EmailClass(object):
         print self.receivers
         msg = MIMEMultipart()
         msg['From'] = Header(self.From,'utf-8')
-        msg['To'] = self.To.join(self.receivers)
+        msg['To'] = self.To
         msg['Subject'] = Header('%s%s'%(self.msg_title,self.curDateTime),'utf-8')
 
         reportfile = os.path.join(gl.reportPath, 'Report.html')
@@ -61,11 +61,11 @@ class EmailClass(object):
             smtpObj = smtplib.SMTP()
             smtpObj.connect(self.sender_server,25)
             smtpObj.login(self.sender,self.config['EMAIL']['Password'])
-            smtpObj.sendmail(self.sender, self.receivers, message.as_string())
+            smtpObj.sendmail(self.sender,self.receivers , message.as_string())
             smtpObj.quit()
             print "邮件发送成功"
         except smtplib.SMTPException as ex:
-            print "Error: 无法发送邮件."
+            print "Error: 无法发送邮件.%s"%ex
 
 
 if __name__=="__main__":

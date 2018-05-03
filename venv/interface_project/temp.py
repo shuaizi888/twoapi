@@ -65,7 +65,7 @@ class EmailClass(object):
             smtpObj.quit()
             print "邮件发送成功"
         except smtplib.SMTPException as ex:
-            print "Error: 无法发送邮件."
+            print "Error: 无法发送邮件.%s"%ex
 
 
 if __name__=="__main__":
