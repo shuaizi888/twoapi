@@ -1,12 +1,12 @@
 name: config
 
 EMAIL:
-    Smtp_Server:
-    Smtp_Sender:
-    Password:
-    Msg_Title:
-    Content_Type:
-    Text_Description:
+    Smtp_Server: smtp.163.com
+    Smtp_Sender: lengyaohui@163.com
+    Password: yhleng870120
+    Msg_Title: 自动化测试报告
+    Receivers: ['lengyaohui.bj@acewill.cn']
+
 
 
 

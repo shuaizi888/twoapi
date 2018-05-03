@@ -1,6 +1,7 @@
 #_*_coding:utf-8_*_
 from log import LogDebug
 import time
+import yaml
 '''
 替换，post数据中的biz_id
 '''
@@ -26,4 +27,25 @@ def rndTimeStr():
     curTimeStr = str(time.strftime('%Y%m%d%H%M%S', time.localtime()).encode('utf-8'))
     LogDebug().info('生成日期时间串%s'%curTimeStr)
     return curTimeStr.decode('utf-8')
+
+'''
+写yaml内容
+'''
+def writeYmal(yamlPath,data):
+    fp = open(yamlPath,'a')
+    yaml.dump(data,fp)
+    fp.close()
+
+
+'''
+读yaml文件
+'''
+def getYamlfield(yamlpath):
+    f = open(yamlpath,'r')
+    cont = f.read()
+    ret = yaml.load(cont)
+    f.close()
+    return ret
+
+
 
