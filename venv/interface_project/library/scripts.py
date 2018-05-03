@@ -32,9 +32,10 @@ def rndTimeStr():
 写yaml内容
 '''
 def writeYmal(yamlPath,data):
-    fp = open(yamlPath,'a')
+    fp = open(yamlPath,'w')
     yaml.dump(data,fp)
     fp.close()
+
 
 
 '''
@@ -47,5 +48,16 @@ def getYamlfield(yamlpath):
     f.close()
     return ret
 
+'''
+更新接口测试数据
+'''
+def loadTestData(payload):
+    left_location = payload.find('{')
+    right_location = payload.rfind('}')
 
+    leftstr = payload[:left_location]
+    rightstr = payload[right_location+1:]
+
+    newPayload = leftstr + json.dumps(payload2) + rightstr
+    return newPayload
 

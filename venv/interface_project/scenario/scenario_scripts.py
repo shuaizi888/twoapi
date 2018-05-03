@@ -52,6 +52,10 @@ class ScenarioTest(unittest.TestCase):#api
     #自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销
     '''
     def testChargeAndDeal(self):
+        #yamlConfigPath = os.path.join(gl.dataScenarioPath,'ChargeAndDeal.yaml')
+        #scanorio_data = scripts.getYamlfield(yamlConfigPath)
+
+
         all_row_list = Excel(self.scenarioRunTable).getExcelDataByName()
         for row in all_row_list:
             # print row

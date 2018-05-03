@@ -1,12 +1,12 @@
 #储值取消业务场景数据
 name: ChargeAndCancel
 #储值预览
-ChargePreview: {award_money2: 10, biz_id: 37, cashier_id: '1196770051', charge_type: 1, cno: '1262797',
-  is_diy: true, money: '100', recommenderecode2: 9002, remark: beizhu, reward_money: '100',
+ChargePreview: {'award_money2': 10, 'biz_id': 37, 'cashier_id': '1196770051', 'charge_type': 1, 'cno': '1262797',
+  'is_diy': 'true', 'money': '100', 'recommenderecode2': 9002, 'remark': beizhu, 'reward_money': '100',
   shop_id: 4101315464}
 
 #储值提交
-ChargeCommit: {"biz_id":37,"is_diy":false}
+ChargeCommit: {'biz_id':37,'is_diy':false}
 
 #储值取消
-ChargeCancel: {"biz_id":37,"cashier_id":"1196770051"}
+ChargeCancel: {'biz_id':37,'cashier_id':'1196770051'}
