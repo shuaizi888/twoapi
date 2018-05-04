@@ -39,15 +39,15 @@ class ScenarioTest(unittest.TestCase):#api
                 biz_id_01 = scripts.rndTimeStr()
                 scanorio_data['ChargePreview']['biz_id'] = biz_id_01
                 '''--------------------------split line----------------------'''
-                preview.payload = scripts.loadTestData(preview.payload, scanorio_data['ChargePreview'])
+                preview.payload = scripts.MultipartFormData(scanorio_data['ChargePreview'])
                 '''--------------------------split line----------------------'''
                 commit = charge_commit.ChargeClass() #交易提交
                 scanorio_data['ChargeCommit']['biz_id'] = biz_id_01
-                commit.payload = scripts.loadTestData(commit.payload,scanorio_data['ChargeCommit']) #更新接口数据
+                commit.payload = scripts.MultipartFormData(scanorio_data['ChargeCommit']) #更新接口数据
                 '''--------------------------split line----------------------'''
                 cancel = charge_cancel.ChargeClass() #交易撤销
                 scanorio_data['ChargeCancel']['biz_id'] = biz_id_01
-                cancel.payload = scripts.loadTestData(cancel.payload,scanorio_data['ChargeCancel']) #更新接口数据
+                cancel.payload = scripts.MultipartFormData(scanorio_data['ChargeCancel']) #更新接口数据
                 '''--------------------------split line----------------------'''
 
                 self.assertEquals(preview.chargePreview['errcode'],0,preview.chargePreview['errmsg']) #交易预览断言
@@ -71,24 +71,24 @@ class ScenarioTest(unittest.TestCase):#api
                 biz_id_01 = scripts.rndTimeStr()
                 #----修改数据----
                 scanorio_data['ChargePreview']['biz_id'] = biz_id_01
-                preview.payload = scripts.loadTestData(preview.payload,scanorio_data['ChargePreview']) #生成新数据
+                preview.payload = scripts.MultipartFormData(scanorio_data['ChargePreview']) #生成新数据
                 '''--------------------------split line----------------------'''
                 commit = charge_commit.ChargeClass()  # 储值提交
                 scanorio_data['ChargeCommit']['biz_id'] = biz_id_01
-                commit.payload = scripts.loadTestData(commit.payload,scanorio_data['ChargeCommit']) #生成新提交biz_id
+                commit.payload = scripts.MultipartFormData(scanorio_data['ChargeCommit']) #生成新提交biz_id
                 '''--------------------------split line----------------------'''
                 dealPreview = deal_preview.DealClass() #消费预览
                 biz_id_03 = scripts.rndTimeStr()
                 scanorio_data['DealPreview']['biz_id'] = biz_id_03
-                dealPreview.payload = scripts.loadTestData(dealPreview.payload,scanorio_data['DealPreview'])
+                dealPreview.payload = scripts.MultipartFormData(scanorio_data['DealPreview'])
                 '''--------------------------split line----------------------'''
                 dealcommit = deal_commit.DealClass() #消费提交
                 scanorio_data['DealCommit']['biz_id'] = biz_id_03
-                dealcommit.payload = scripts.loadTestData(dealcommit.payload,scanorio_data['DealCommit']) #更新接口数据
+                dealcommit.payload = scripts.MultipartFormData(scanorio_data['DealCommit']) #更新接口数据
                 '''--------------------------split line----------------------'''
                 dealcancel = deal_cancel.DealClass() #消费取消
                 scanorio_data['DealCancel']['biz_id'] = biz_id_03
-                dealcancel.payload = scripts.loadTestData(dealcancel.payload,scanorio_data['DealCancel']) #更新接口数据
+                dealcancel.payload = scripts.MultipartFormData(scanorio_data['DealCancel']) #更新接口数据
                 '''--------------------------split line----------------------'''
 
 
