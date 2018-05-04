@@ -9,22 +9,22 @@ from interface_project.library.emailstmp import EmailClass
 
 if __name__=="__main__":
     suite = unittest.TestSuite()
-    tests = [ScenarioTest('testChargeAndCancel'), ScenarioTest('testChargeAndDeal')]
-    suite.addTests(tests)
-
+    #tests = [ScenarioTest('testChargeAndCancel'), ScenarioTest('testChargeAndDeal')]
+    #suite.addTests(tests)
+    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(ScenarioTest))
     filePath = os.path.join(gl.reportPath, 'Report.html')  # 确定生成报告的路径
     print filePath
-    fp = file(filePath, 'wb')
 
-    runner = HTMLTESTRunnerCN.HTMLTestRunner(
-        stream=fp,
-        title=u'接口自动化测试报告',
-        description=u'详细测试用例结果',  # 不传默认为空
-        tester=u"yhleng"  # 测试人员名字，不传默认为QA
-    )
-    # 运行测试用例
-    runner.run(suite)
-    fp.close()
+    with file(filePath, 'wb') as fp:
+        runner = HTMLTESTRunnerCN.HTMLTestRunner(
+            stream=fp,
+            title=u'接口自动化测试报告',
+            description=u'详细测试用例结果',  # 不传默认为空
+            tester=u"yhleng"  # 测试人员名字，不传默认为QA
+        )
+        # 运行测试用例
+        runner.run(suite)
+        fp.close()
 
     #发送测试报告To Email
     EmailClass().send
