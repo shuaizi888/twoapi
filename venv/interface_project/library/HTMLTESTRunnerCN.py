@@ -166,7 +166,7 @@ class Template_mixin(object):
 
     DEFAULT_TITLE = '接口测试报告'
     DEFAULT_DESCRIPTION = ''
-    DEFAULT_TESTER='小强'
+    DEFAULT_TESTER='天枢'
 
     # ------------------------------------------------------------------------
     # HTML Template
