@@ -13,21 +13,22 @@ from interface_project.interface.Deal import deal_cancel,deal_commit,deal_previe
 from interface_project.library import HTMLTESTRunnerCN
 
 '''
-点评微平台－API接口场景
+点评微生活－API接口场景
 '''
-class ScenarioTest(unittest.TestCase):#api
-
+class ScenarioTest(unittest.TestCase):#点评微生活API接口
+    '''点评微生活－API接口场景'''
+    #初始化,setUp每个测试方法,执行一次;如果需要只执行一次使用setUpClass(cls)  需要classmethod修饰
     def setUp(self):
         self.configPath =  gl.configPath
         self.reportPath = gl.reportPath
         self.yamlPath = os.path.join(self.configPath,'config_scenario.yaml')
         self.scenarioRunTable = os.path.join(gl.configPath,'scenario_run_config.xlsx').decode('utf-8')
 
-
     '''
     #储值撤销场景:储值预览->储值提交->储值撤销
     '''
-    def testChargeAndCancel(self):#储值撤销场景:储值预览->储值提交->储值撤销
+    def testChargeAndCancel(self):
+        '''储值撤销场景:储值预览->储值提交->储值撤销'''
         yamlConfigPath = os.path.join(gl.dataScenarioPath,'ChargeAndCancel.yaml')
         scanorio_data = scripts.getYamlfield(yamlConfigPath)
 
@@ -58,6 +59,7 @@ class ScenarioTest(unittest.TestCase):#api
     #自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销
     '''
     def testChargeAndDeal(self):
+        '''自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销'''
         yamlConfigPath = os.path.join(gl.dataScenarioPath,'ChargeAndDeal.yaml')
         scanorio_data = scripts.getYamlfield(yamlConfigPath)
 
@@ -99,7 +101,7 @@ class ScenarioTest(unittest.TestCase):#api
                 self.assertEquals(dealcommit.dealCommit['errcode'], 0,dealcommit.dealCommit['errmsg']) #消费提交断言
                 self.assertEquals(dealcancel.dealCancel['errcode'], 0,dealcancel.dealCancel['errmsg']) #消费取消断言
 
-
+#
 
 if __name__=="__main__":
     suite = unittest.TestSuite()
