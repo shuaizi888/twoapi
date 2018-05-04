@@ -28,20 +28,26 @@ class ScenarioTest(unittest.TestCase):#api
     #储值撤销场景:储值预览->储值提交->储值撤销
     '''
     def testChargeAndCancel(self):#储值撤销场景:储值预览->储值提交->储值撤销
+        yamlConfigPath = os.path.join(gl.dataScenarioPath,'ChargeAndCancel.yaml')
+        scanorio_data = scripts.getYamlfield(yamlConfigPath)
+
         all_row_list = Excel(self.scenarioRunTable).getExcelDataByName()
         for row in all_row_list:
             #print row
             if str(row['Flag']).strip() =='Y' and str(row['PrimaryKey']).strip()=='chargeAndCancel': #执行标志
                 preview = charge_preview.ChargeClass() #交易预览
                 biz_id_01 = scripts.rndTimeStr()
+                scanorio_data['ChargePreview']['biz_id'] = biz_id_01
                 '''--------------------------split line----------------------'''
-                preview.payload =scripts.replacePayload(preview.payload,'biz_id',biz_id_01)
+                preview.payload = scripts.loadTestData(preview.payload, scanorio_data['ChargePreview'])
                 '''--------------------------split line----------------------'''
                 commit = charge_commit.ChargeClass() #交易提交
-                commit.payload = scripts.replacePayload(commit.payload,'biz_id',biz_id_01)
+                scanorio_data['ChargeCommit']['biz_id'] = biz_id_01
+                commit.payload = scripts.loadTestData(commit.payload,scanorio_data['ChargeCommit']) #更新接口数据
                 '''--------------------------split line----------------------'''
                 cancel = charge_cancel.ChargeClass() #交易撤销
-                cancel.payload = scripts.replacePayload(cancel.payload,'biz_id',biz_id_01)
+                scanorio_data['ChargeCancel']['biz_id'] = biz_id_01
+                cancel.payload = scripts.loadTestData(cancel.payload,scanorio_data['ChargeCancel']) #更新接口数据
                 '''--------------------------split line----------------------'''
 
                 self.assertEquals(preview.chargePreview['errcode'],0,preview.chargePreview['errmsg']) #交易预览断言
