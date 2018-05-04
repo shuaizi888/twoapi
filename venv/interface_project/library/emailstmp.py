@@ -21,8 +21,8 @@ class EmailClass(object):
         self.receivers = self.config['EMAIL']['Receivers']  # 从配置文件获取，接收人
         self.msg_title = self.config['EMAIL']['Msg_Title'] #从配置文件获取，邮件标题
         self.sender_server = self.config['EMAIL']['Smtp_Server'] #从配置文件获取，发送服务器
-        self.From = '自动化测试系统'
-        self.To = '微生活测试组'
+        self.From = self.config['EMAIL']['From']
+        self.To = self.config['EMAIL']['To']
 
     '''
     配置邮件内容
@@ -67,8 +67,11 @@ class EmailClass(object):
         except smtplib.SMTPException as ex:
             print "Error: 无法发送邮件.%s"%ex
 
+    #发送调用
+    @property
+    def send(self):
+        self.sendEmail(self.setMailContent)
 
 if __name__=="__main__":
-    email_class = EmailClass()
-    email_class.sendEmail(email_class.setMailContent)
+    EmailClass().send
 

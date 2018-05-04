@@ -5,7 +5,9 @@ EMAIL:
     Smtp_Sender: lengyaohui.bj@acewill.cn
     Password: YHleng870120
     Msg_Title: 自动化测试报告
-    Receivers: ['lengyaohui@163.com','lengyaohui.bj@acewill.cn']
+    Receivers: ['lengyaohui@163.com','lengyaohui.bj@acewill.cn']  #收件人
+    From: 自动化测试系统
+    To: 微生活测试组
 
 
 

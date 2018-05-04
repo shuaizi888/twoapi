@@ -26,8 +26,5 @@ if __name__=="__main__":
     runner.run(suite)
     fp.close()
 
-    #print json.dumps(runner.STATUS).decode('unicode-escape')
-
-    #发送测试报告Email
-    email_class = EmailClass()
-    email_class.sendEmail(email_class.setMailContent)
+    #发送测试报告To Email
+    EmailClass().send
