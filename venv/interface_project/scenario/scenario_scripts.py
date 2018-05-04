@@ -68,18 +68,23 @@ class ScenarioTest(unittest.TestCase):#api
                 preview.payload = scripts.loadTestData(preview.payload,scanorio_data['ChargePreview']) #生成新数据
                 '''--------------------------split line----------------------'''
                 commit = charge_commit.ChargeClass()  # 储值提交
-                commit.payload = scripts.replacePayload(commit.payload,'biz_id',biz_id_01)
+                scanorio_data['ChargeCommit']['biz_id'] = biz_id_01
+                commit.payload = scripts.loadTestData(commit.payload,scanorio_data['ChargeCommit']) #生成新提交biz_id
                 '''--------------------------split line----------------------'''
                 dealPreview = deal_preview.DealClass() #消费预览
                 biz_id_03 = scripts.rndTimeStr()
-                dealPreview.payload = scripts.replacePayload(dealPreview.payload,'biz_id',biz_id_03)
+                scanorio_data['DealPreview']['biz_id'] = biz_id_03
+                dealPreview.payload = scripts.loadTestData(dealPreview.payload,scanorio_data['DealPreview'])
                 '''--------------------------split line----------------------'''
                 dealcommit = deal_commit.DealClass() #消费提交
-                dealcommit.payload = scripts.replacePayload(dealcommit.payload,'biz_id',biz_id_03)
+                scanorio_data['DealCommit']['biz_id'] = biz_id_03
+                dealcommit.payload = scripts.loadTestData(dealcommit.payload,scanorio_data['DealCommit']) #更新接口数据
                 '''--------------------------split line----------------------'''
                 dealcancel = deal_cancel.DealClass() #消费取消
-                dealcancel.payload = scripts.replacePayload(dealcancel.payload,'biz_id',biz_id_03)
+                scanorio_data['DealCancel']['biz_id'] = biz_id_03
+                dealcancel.payload = scripts.loadTestData(dealcancel.payload,scanorio_data['DealCancel']) #更新接口数据
                 '''--------------------------split line----------------------'''
+
 
                 #断言
                 self.assertEquals(preview.chargePreview['errcode'], 0,preview.chargePreview['errmsg'])  # 储值预览断言
@@ -87,8 +92,6 @@ class ScenarioTest(unittest.TestCase):#api
                 self.assertEquals(dealPreview.dealPreview['errcode'], 0,dealPreview.dealPreview['errmsg']) #消费预览断言
                 self.assertEquals(dealcommit.dealCommit['errcode'], 0,dealcommit.dealCommit['errmsg']) #消费提交断言
                 self.assertEquals(dealcancel.dealCancel['errcode'], 0,dealcancel.dealCancel['errmsg']) #消费取消断言
-            else:
-                print "执行配置表中没有可以执行的对象。"
 
 
 
