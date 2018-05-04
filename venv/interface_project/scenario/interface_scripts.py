@@ -1,7 +1,7 @@
 #_*_coding:utf-8_*_
 import unittest
 from interface_project.interface import charge,credit,Deal,grade,manage,user
-from interface_project.interface.charge import charge_today,charge_receipt,charge_change
+from interface_project.interface.charge import charge_today,charge_receipt,charge_change,charge_rule
 
 class InterfaceTest(unittest.TestCase):
     '''单个接口测试-数据无依赖'''
@@ -28,6 +28,12 @@ class InterfaceTest(unittest.TestCase):
         #断言
         self.assertEqual(change.chargeChange['errcode'], 0, change.chargeChange['errmsg']) #断言/charge/change
 
+
+    def testChargeRule(self):
+        '''交易模块接口/charge/rule'''
+        rule = charge_rule.ChargeClass()
+        #断言
+        self.assertEqual(rule.chargeRule['errcode'],0,rule.chargeRule['errmsg']) #断言/charge/rule
 
 if __name__=="__main__":
     '''
