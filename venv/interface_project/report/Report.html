@@ -116,9 +116,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">接口自动化测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> yhleng</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-05-04 17:48:09</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:08.344000</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 2，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-05-07 09:37:51</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:11.256000</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 8，通过 8，通过率= 100.00%</p>
 
 <p class='description'>详细测试用例结果</p>
 </div>
@@ -127,8 +127,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 8 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 8 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -149,28 +149,67 @@ function html_escape(s) {
 </tr>
 
 <tr class='passClass warning'>
+    <td>interface_project.scenario.interface_scripts.InterfaceTest: 点评微生活－API单接口</td>
+    <td class="text-center">6</td>
+    <td class="text-center">6</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',6)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testChargeChange: 交易模块/charge/change</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testChargeReceipt: 交易模块/charge/receipt</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testChargeRule: 交易模块/charge/rule</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testChargeView: 交易模块/charge/view</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testChargetoday: 交易模块/charge/today</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testPosChargedetail: 交易模块pos/chargedetail</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr class='passClass warning'>
     <td>interface_project.scenario.scenario_scripts.ScenarioTest: 点评微生活－API接口场景</td>
     <td class="text-center">2</td>
     <td class="text-center">2</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',2)" class="detail" id='c2'>详细</a></td>
 </tr>
 
-<tr id='pt1_1' class='hiddenRow'>
+<tr id='pt2_1' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>testChargeAndCancel: 储值撤销场景:储值预览->储值提交->储值撤销</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='pt1_2' class='hiddenRow'>
+<tr id='pt2_2' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>testChargeAndDeal: 自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>2</td>
-    <td>2</td>
+    <td>8</td>
+    <td>8</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>

@@ -18,6 +18,7 @@ from interface_project.library import HTMLTESTRunnerCN
 class ScenarioTest(unittest.TestCase):#点评微生活API接口
     '''点评微生活－API接口场景'''
     #初始化,setUp每个测试方法,执行一次;如果需要只执行一次使用setUpClass(cls)  需要classmethod修饰
+
     def setUp(self):
         self.configPath =  gl.configPath
         self.reportPath = gl.reportPath
