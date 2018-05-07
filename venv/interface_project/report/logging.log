@@ -12364,3 +12364,905 @@ Content-Disposition: form-data; name="v"
 [2018-05-07 09:38:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/cancel HTTP/1.1" 200 None
 [2018-05-07 09:38:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
 [2018-05-07 09:38:03] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/cancel HTTP/1.1" 200 None
+[2018-05-07 10:22:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:22:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:22:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:22:24] INFO [info: log.py, 20] 生成日期时间串20180507102224
+[2018-05-07 10:22:24] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:22:24] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":2121261517181, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "remark":"heihei", "biz_id":20180507102224-
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:24] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:22:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:25] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:22:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:25] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:22:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:22:25] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:23:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:28] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:23:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:29] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:23:29] INFO [info: log.py, 20] 生成日期时间串20180507102329
+[2018-05-07 10:23:29] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:23:29] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":2121261517181, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507102329,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:23:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:23:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:31] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:23:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:23:31] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:24:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:19] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:24:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:20] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:24:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:20] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:24:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:20] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:24:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:20] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:24:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:20] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:24:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:20] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:24:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:21] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:24:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:21] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:24:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:21] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:24:21] INFO [info: log.py, 20] 生成日期时间串20180507102421
+[2018-05-07 10:24:21] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:24:21] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507102421,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:24:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:21] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:24:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:21] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:24:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:21] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:24:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:22] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:24:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:24:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:24:23] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:34:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:34:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:34:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:34:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:34:47] INFO [info: log.py, 20] 生成日期时间串20180507103447
+[2018-05-07 10:34:47] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:34:47] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507103447,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:34:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:48] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:34:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:48] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:34:48] INFO [info: log.py, 20] 生成日期时间串20180507103448
+[2018-05-07 10:34:48] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:34:48] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507103448,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:34:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:49] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:34:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:50] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:34:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:50] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:34:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:50] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:34:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:50] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:34:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:50] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:34:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:34:50] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:40:08] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:08] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:40:08] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:08] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:40:08] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:09] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:40:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:09] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:40:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:09] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:40:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:09] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:40:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:10] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:40:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:10] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:40:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:10] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:40:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:10] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:40:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:10] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:40:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:10] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:40:10] INFO [info: log.py, 20] 生成日期时间串20180507104010
+[2018-05-07 10:40:10] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:40:10] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507104010,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:40:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:11] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:40:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:11] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:40:11] INFO [info: log.py, 20] 生成日期时间串20180507104011
+[2018-05-07 10:40:11] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:40:11] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507104011,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:40:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:13] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:40:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:13] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:40:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:13] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:40:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:13] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:40:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:13] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:40:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:40:13] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:48:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:40] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:48:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:40] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:48:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:40] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:48:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:48:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:48:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:48:42] INFO [info: log.py, 20] 生成日期时间串20180507104842
+[2018-05-07 10:48:42] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:48:42] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507104842,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:48:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:48:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:48:42] INFO [info: log.py, 20] 生成日期时间串20180507104842
+[2018-05-07 10:48:42] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:48:42] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507104842,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:48:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:48:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:48:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:48:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:48:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:48:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:48:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:48:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:48:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:48:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:48:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:48:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:48:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:48:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:49:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:49:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:49:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:49:00] INFO [info: log.py, 20] 生成日期时间串20180507104900
+[2018-05-07 10:49:00] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:49:00] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507104900,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:49:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:01] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:49:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:01] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:49:01] INFO [info: log.py, 20] 生成日期时间串20180507104901
+[2018-05-07 10:49:01] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:49:01] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507104901,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:49:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:01] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:49:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:01] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:49:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:01] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:49:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:03] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:49:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:49:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:30] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:49:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:31] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:49:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:31] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:49:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:31] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:49:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:31] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:49:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:49:32] INFO [info: log.py, 20] 生成日期时间串20180507104932
+[2018-05-07 10:49:32] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:49:32] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507104932,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:32] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:49:32] INFO [info: log.py, 20] 生成日期时间串20180507104932
+[2018-05-07 10:49:32] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:49:32] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507104932,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:49:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:33] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:49:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:34] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:49:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:34] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:49:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:34] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:34] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:49:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:34] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:49:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:49:34] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:50:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:57] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:50:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:57] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:50:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:57] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:50:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:58] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:50:58] INFO [info: log.py, 20] 生成日期时间串20180507105058
+[2018-05-07 10:50:58] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:50:58] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "biz_id":20180507105058,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:50:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:50:59] INFO [info: log.py, 20] 生成日期时间串20180507105059
+[2018-05-07 10:50:59] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:50:59] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507105059,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:50:59] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:50:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:00] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:51:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:01] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/user/account HTTP/1.1" 200 None
+[2018-05-07 10:51:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:51:02] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/user/account HTTP/1.1" 200 None
+[2018-05-07 10:54:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:54:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:41] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/cashier/list HTTP/1.1" 200 None
+[2018-05-07 10:54:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:54:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/change HTTP/1.1" 200 None
+[2018-05-07 10:54:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:54:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/receipt HTTP/1.1" 200 None
+[2018-05-07 10:54:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:42] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:54:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/rule HTTP/1.1" 200 None
+[2018-05-07 10:54:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:54:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/view HTTP/1.1" 200 None
+[2018-05-07 10:54:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:54:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:43] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/charge/today HTTP/1.1" 200 None
+[2018-05-07 10:54:43] INFO [info: log.py, 20] 生成日期时间串20180507105443
+[2018-05-07 10:54:43] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:54:43] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":1262797, "cashier_id":"1128628493", "shop_id":4101315464, "type":1, "credit":1, "biz_id":20180507105443,"remark":"heihei"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:54:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:54:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:44] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/change HTTP/1.1" 200 None
+[2018-05-07 10:54:44] INFO [info: log.py, 20] 生成日期时间串20180507105444
+[2018-05-07 10:54:44] INFO [info: log.py, 20] 查找字段:biz_id
+[2018-05-07 10:54:44] INFO [info: log.py, 20] 字段找到并替换:------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="req"
+
+{"cno":"1262797","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1,"biz_id":20180507105444,"desc":"30分换礼品"}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="appid"
+
+dp1svA1gkNt8cQMkoIv7HmD1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="ts"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sig"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="v"
+
+2.0
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+[2018-05-07 10:54:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/exchange HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/credit/rule HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/consume/today HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:45] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/getpaytype HTTP/1.1" 200 None
+[2018-05-07 10:54:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:54:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/deal/sendnotification HTTP/1.1" 200 None
+[2018-05-07 10:54:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:54:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/grade/rule HTTP/1.1" 200 None
+[2018-05-07 10:54:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:54:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:46] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/pos/chargedetail HTTP/1.1" 200 None
+[2018-05-07 10:54:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/user/account HTTP/1.1" 200 None
+[2018-05-07 10:54:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): 127.0.0.1
+[2018-05-07 10:54:47] DEBUG [_make_request: connectionpool.py, 396] http://127.0.0.1:8888 "POST http://api.beta.acewill.net/user/account HTTP/1.1" 200 None
