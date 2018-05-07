@@ -21,7 +21,7 @@ if __name__=="__main__":
             stream=fp,
             title=u'接口自动化测试报告',
             description=u'详细测试用例结果',  # 不传默认为空
-            tester=u"yhleng"  # 测试人员名字，不传默认为QA
+            tester=u"yhleng"  # 测试人员名字，不传默认为小强
         )
         # 运行测试用例
         runner.run(suite)
